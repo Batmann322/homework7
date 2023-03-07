@@ -1,0 +1,56 @@
+$blue: #2196F3;
+$black: #000000;
+$grey: #2F303A;
+$teal: #757575;
+
+
+.selected {
+    position: relative; 
+
+    &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0;
+            bottom: -190%;
+            width: 100%;
+            height: 4px;
+            background: #2196F3;
+            border-radius: 2px;
+        } 
+}
+
+
+
+
+
+
+
+.list {
+display: flex;
+    align-items: center;
+    margin-left: 93px;
+    font-weight: 500;
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+&-itam>a {
+        color: #212121;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+        &-itam>a:hover,
+        &-itam>a:focus {
+            color: $blue;
+        }
+
+                &-itam>.selected {
+                    color: var(--blue);
+                }
+        
+                &-itam:not(:last-child) {
+                    margin-right: 50px;
+                }
+}

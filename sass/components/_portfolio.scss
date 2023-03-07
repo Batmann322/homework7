@@ -1,0 +1,44 @@
+.prtf-list {
+    flex-wrap: wrap;
+    margin: -13px;
+
+&>li {
+    margin: 13px;
+}    
+}
+
+.nav-itame {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    padding-bottom: 15px;
+
+    &:hover {
+            background: #FFFFFF;
+            border: 1px solid #EEEEEE;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+
+.li-title {
+    margin-left: 24px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+    letter-spacing: 3%;
+}   
+
+.li-span {
+    margin-left: 24px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.87;
+}
+}
+
+
+
+
+
+
+

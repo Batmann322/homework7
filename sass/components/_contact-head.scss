@@ -1,0 +1,58 @@
+$blue: #2196F3;
+$black: #000000;
+$grey: #2F303A;
+$teal: #757575;
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-weight: 500;
+    line-height: 1.14;
+    font-size: 14px;
+    
+    &-itame {
+            display: flex;
+            align-items: center;
+            color: #757575;
+        }
+    
+        &-itame:hover {
+            cursor: pointer;
+            color: $blue;
+            fill: $blue;
+        }
+    
+        &-icone {
+            margin-right: 10px;
+            fill: currentColor;
+        }
+}
+
+.mail {
+    color: $teal;
+    margin-right: 50px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+&:hover,
+&:focus {
+    cursor: pointer;
+    color: $blue;
+}
+}
+
+
+.tel {
+    color: var(--teal);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+ &:hover,
+&:focus {
+    cursor: pointer;
+    color: var(--blue);
+}  
+}
+
+
+
+

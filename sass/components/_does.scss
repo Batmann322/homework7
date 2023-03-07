@@ -1,0 +1,44 @@
+.title-h2 {
+    padding-bottom: 50px;
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #212121;
+    text-align: center;
+}
+
+
+
+
+.text {
+    position: relative;
+
+    .label {
+            position: absolute;
+            bottom: 1%;
+            width: 370px;
+            height: 70px;
+            background-color: rgba(47, 48, 58, 0.8);
+            font-weight: 700;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+        }
+}
+
+
+.doing-item {
+    padding-bottom: 94px;
+
+    &:not(:last-child) {
+    margin-right: 30px;
+}
+}
+
+
+

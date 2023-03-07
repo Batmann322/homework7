@@ -1,0 +1,33 @@
+.company {
+    justify-content: center;
+
+    &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            border: 1px solid #AFB1B8;
+            fill: #AFB1B8;
+            width: 170px;
+            height: 92px;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+                &-item:not(:last-child) {
+                    margin-right: 30px;
+                }
+
+&-item:hover {
+    cursor: pointer;
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+}
+
+
+
+
+
+
+
+

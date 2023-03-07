@@ -1,0 +1,50 @@
+$blue: #2196F3;
+$black: #000000;
+$grey: #2F303A;
+$teal: #757575;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: $teal;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.team-section {
+    background-color: #F5F4FA;
+}
+
+.footer {
+    padding: 60px;
+    background-color: $grey;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left {
+    margin-right: 93px;
+}
+
+.head {
+    border: 1px solid #ECECEC;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
